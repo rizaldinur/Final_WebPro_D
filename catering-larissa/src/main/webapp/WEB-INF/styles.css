@@ -1,0 +1,181 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+.navbar .nav-link{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #007bff;
+    text-transform: uppercase;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+@font-face {
+    font-display: block;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(https://fonts.gstatic.com/s/librebaskerville/v7/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+.bg-white{
+    background: #fff;
+}
+
+body{
+    background: #fff;
+    text-align: center;
+}
+
+.lead{
+  text-align: center;
+  color: #fff;
+}
+
+h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.719);
+    font-family: 'Libre Baskerville';
+}
+
+h2{
+    text-align: center;
+    color: #000;
+}
+
+.title{
+    background-image: 
+    linear-gradient(
+      115deg,
+      rgba(93, 194, 152, 0.8),
+      rgba(241, 227, 163, 0.7)
+    ),
+    url(images/tumpeng.jpg);
+    background-position: center;
+}
+
+.logo-bar {
+    background:#fff;
+}
+
+.catering-logo{
+    width:306px;
+    height:150px;
+    object-fit:cover;
+    object-position:50% 50%; 
+}
+
+.tagline{
+    justify-content: flex-end;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.carousel-item{
+    height: 600px;
+}
+.carousel-image-1{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
+  url('./images/tumpeng.jpg');
+  background-size: cover;
+}
+.carousel-image-2{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+   url('./images/prasmanan.jpg');
+  background-size: cover;
+}
+.carousel-image-3{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+   url('./images/qmark.jpg');
+  background-size: cover;
+}
+.h-color{
+    color:#fff;
+
+}
+.btn-color{
+    background: #000;
+    color: #fff;
+}
+.btn-color:hover{
+    color: #fff;
+}
+/* Wobble Vertical */
+@-webkit-keyframes slide-btn {
+    16.65% {
+           transform: translateY(8px);
+    }
+    33.3% {
+     transform: translateY(-6px);
+    }
+    49.95% {
+        transform: translateY(4px);
+    }
+    66.6% {
+         transform: translateY(-2px);
+    }
+    83.25% {
+         transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+  @keyframes slide-btn {
+    16.65% {
+      
+      transform: translateY(8px);
+    }
+    33.3% {
+      
+      transform: translateY(-6px);
+    }
+    49.95% {
+      
+      transform: translateY(4px);
+    }
+    66.6% {
+     
+      transform: translateY(-2px);
+    }
+    83.25% {
+     
+      transform: translateY(1px);
+    }
+    100% {
+     
+      transform: translateY(0);
+    }
+  }
+  .slide-btn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .slide-btn:hover, .slide-btn:focus, .slide-btn:active {
+    
+    animation-name: slide-btn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+p{
+  color:#000;
+}
+
+.text-blue{
+  color:#007bff;
+}
